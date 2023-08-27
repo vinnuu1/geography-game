@@ -8,28 +8,43 @@ public class PlayerInteract : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            float interactRange = 2f;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
-            foreach(Collider collider in colliderArray)
+            IInteractable interactable = GetInteractableObject();
+            if (interactable != null)
             {
-                if (collider.TryGetComponent(out NPCInteractable npcInteractable)) {
-                    npcInteractable.Interact();
-                }
-            } 
+                interactable.Interact();
+            }
         }
     }
 
-    public NPCInteractable GetInteractableObject()
+    public IInteractable GetInteractableObject()
     {
-        float interactRange = 2f;
+        List<IInteractable> interactableList = new List<IInteractable>();
+        float interactRange = 1.5f;
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
         foreach (Collider collider in colliderArray)
         {
-            if (collider.TryGetComponent(out NPCInteractable npcInteractable))
+            if (collider.TryGetComponent(out IInteractable interactable))
             {
-                return npcInteractable;
+                interactableList.Add(interactable);
             }
         }
-        return null;
+
+        IInteractable closestInteractable = null;
+        foreach (IInteractable interactable in interactableList)
+        {
+            if (closestInteractable == null)
+            {
+                closestInteractable = interactable;
+            } else
+            {
+                if (Vector3.Distance(transform.position, interactable.GetTransform().position) <
+                    Vector3.Distance(transform.position, closestInteractable.GetTransform().position))
+                {
+                    closestInteractable = interactable;
+                }
+            }
+        }
+
+        return closestInteractable;
     }
 }

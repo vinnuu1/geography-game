@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
+using TMPro;
 
 public class PlayerInteractUI : MonoBehaviour
 {
     [SerializeField] private GameObject containerGameObject;
     [SerializeField] private PlayerInteract playerInteract;
+    [SerializeField] private TextMeshProUGUI interactMeshProUGUI;
 
     private void Update()
     {
@@ -16,7 +18,7 @@ public class PlayerInteractUI : MonoBehaviour
         }
         else if (playerInteract.GetInteractableObject() != null)
         {
-            Show();
+            Show(playerInteract.GetInteractableObject());
         }
         else
         {
@@ -24,9 +26,10 @@ public class PlayerInteractUI : MonoBehaviour
         }
     }
 
-    private void Show()
+    private void Show(IInteractable interactable)
     {
         containerGameObject.SetActive(true);
+        interactMeshProUGUI.text = interactable.GetInteractText();
     }
 
     private void Hide()
