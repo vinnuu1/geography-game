@@ -6,6 +6,9 @@ TagManager:
   tags:
   - CinemachineTarget
   - GameManager
+  - Dialogue
+  - Ranger
+  - RangerDialogue2
   layers:
   - Default
   - TransparentFX
