@@ -9,6 +9,7 @@ TagManager:
   - Dialogue
   - Ranger
   - RangerDialogue2
+  - BookInteract
   layers:
   - Default
   - TransparentFX

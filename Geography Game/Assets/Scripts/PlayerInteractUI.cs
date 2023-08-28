@@ -16,6 +16,10 @@ public class PlayerInteractUI : MonoBehaviour
         {
             Hide();
         }
+        else if (StateNameController.bookIsOpen == true)
+        {
+            Hide();
+        }
         else if (playerInteract.GetInteractableObject() != null)
         {
             Show(playerInteract.GetInteractableObject());

@@ -18,6 +18,8 @@ public class DetectPlayModeChanges
         {
             case PlayModeStateChange.ExitingEditMode:
                 StateNameController.lastLocation = "";
+                StateNameController.bookIsOpen = false;
+                StateNameController.finishedReading = false;
                 // Do whatever before entering play mode
                 break;
             case PlayModeStateChange.EnteredPlayMode:

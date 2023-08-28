@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RangersHouse.unity
     guid: a4c311d61aa528b4db764687ede70651
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Town.unity
     guid: e9017d5f96b9f09489b4b37e1d6eb914
   m_configObjects:

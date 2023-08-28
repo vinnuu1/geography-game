@@ -7,6 +7,7 @@ public class RangerHouseController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        StateNameController.lastLocation = "RangerHouse"; 
+        StateNameController.lastLocation = "RangerHouse";
+        StateNameController.bookIsOpen = false;
     }
 }
