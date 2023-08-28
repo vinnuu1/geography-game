@@ -10,6 +10,9 @@ TagManager:
   - Ranger
   - RangerDialogue2
   - BookInteract
+  - Outskirts
+  - Town
+  - RangerDialogue3
   layers:
   - Default
   - TransparentFX

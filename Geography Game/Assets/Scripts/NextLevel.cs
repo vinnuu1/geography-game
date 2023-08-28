@@ -5,12 +5,50 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
+    public Animator transition;
+    public float transitionTime = 1f;
+    public GameObject targetObject;
+
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (targetObject.CompareTag("Town"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            Debug.Log("WorksTown");
+            LoadNextLevel("Town");
         }
+        if(targetObject.CompareTag("Outskirts"))
+        {
+            LoadNextLevel("Outskirts");
+        }
+    }
+    public void LoadNextLevel(string nextLevel)
+    {
+        if(nextLevel == "Town")
+        {
+            // Outskirts to Town
+            if (SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
+                StateNameController.lastLocation = "Outskirts";
+                StateNameController.finishedReading = false;
+            }
+        }
+        if(nextLevel == "Outskirts")
+        {
+            // Town to Outskirts
+            if (SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 2));
+                StateNameController.lastLocation = "Town";
+            }
+        }
+
+    }
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(levelIndex);
     }
 }

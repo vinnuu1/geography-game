@@ -27,11 +27,26 @@ public class NPCInteractable : MonoBehaviour, IInteractable
 
         if (lastLocation == "RangerHouse")
         {
-            // Change Ranger dialogue
-            GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue2");
+            // If Town has been visited change to ranger dialogue 3
+            if(StateNameController.visitedTown == true)
+            {
+                RangerDialogueAfterTown();
+            }
+            // If town has not been visited change to ranger dialogue 2
+            else
+            {
+                // Change Ranger dialogue
+                GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue2");
 
-            myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
-            Debug.Log("UpdateWorks");
+                myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+            }
+        }
+        // If Town has been visited change to ranger dialogue 3
+        if (lastLocation == "Town")
+        {
+            RangerDialogueAfterTown();
+
+            StateNameController.visitedTown = true;
         }
     }
     void Update()
@@ -45,8 +60,14 @@ public class NPCInteractable : MonoBehaviour, IInteractable
             if (ConversationManager.Instance.IsConversationActive)
             {
                 myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
-                Debug.Log("UpdateWorks");
             }
         }
+    }
+    void RangerDialogueAfterTown()
+    {
+        // Change Ranger dialogue
+        GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue3");
+
+        myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
     }
 }

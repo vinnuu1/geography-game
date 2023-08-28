@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ObjectInteractable : MonoBehaviour, IInteractable
 {
     [SerializeField] private Image customImage;
+    [SerializeField] private Canvas customCanvas;
     public void RangerBook()
     {
         openBook();
@@ -29,6 +30,7 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
         {
             StateNameController.bookIsOpen = true;
             customImage.enabled = true;
+            customCanvas.enabled = true;
         }
     }
     public void closeBook()
@@ -38,6 +40,7 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
             if (Input.GetKeyDown(KeyCode.R))
             {
                 customImage.enabled = false;
+                customCanvas.enabled = false;
                 StateNameController.bookIsOpen = false;
             }
         }
@@ -45,6 +48,7 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
     public void Start()
     {
         customImage.enabled = false;
+        customCanvas.enabled = false;
     }
     public void Update()
     {

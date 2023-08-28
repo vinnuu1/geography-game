@@ -18,6 +18,15 @@ public class OutskirtsPlayerChange : MonoBehaviour
             transform.position = newPosition;
             transform.rotation = targetRotation;
         }
+        if (lastLocation == "Town")
+        {
+            Vector3 newPosition = new Vector3(498.451996f, 2.73900008f, 422.519989f);
+            Vector3 targetEulerAngles = new Vector3(0f, -90f, 0f);
+            Quaternion targetRotation = Quaternion.Euler(targetEulerAngles);
+
+            transform.position = newPosition;
+            transform.rotation = targetRotation;
+        }
     }
 
     // Update is called once per frame
