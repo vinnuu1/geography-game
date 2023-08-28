@@ -20,6 +20,7 @@ public class DetectPlayModeChanges
                 StateNameController.lastLocation = "";
                 StateNameController.bookIsOpen = false;
                 StateNameController.finishedReading = false;
+                StateNameController.visitedTown = false;
                 // Do whatever before entering play mode
                 break;
             case PlayModeStateChange.EnteredPlayMode:

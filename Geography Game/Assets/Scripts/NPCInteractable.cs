@@ -35,10 +35,19 @@ public class NPCInteractable : MonoBehaviour, IInteractable
             // If town has not been visited change to ranger dialogue 2
             else
             {
-                // Change Ranger dialogue
-                GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue2");
+                // Check if quiz has already been done
+                if(StateNameController.finishedReading == true)
+                {
+                    GameObject rangerObject = GameObject.FindGameObjectWithTag("Ranger");
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("Dialogue");
+                }
+                else
+                {
+                    // Change Ranger dialogue to quiz
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue2");
 
-                myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
             }
         }
         // If Town has been visited change to ranger dialogue 3
@@ -55,7 +64,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
         GameObject rangerObject = GameObject.FindGameObjectWithTag("Ranger");
         GameObject dialogueObject = GameObject.FindGameObjectWithTag("Dialogue");
 
-        if(rangerObject != null)
+        if (rangerObject != null)
         {
             if (ConversationManager.Instance.IsConversationActive)
             {
