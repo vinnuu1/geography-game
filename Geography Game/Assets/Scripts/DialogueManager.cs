@@ -70,6 +70,12 @@ public class DialogueManager : MonoBehaviour
                     }
                 }
             }
+
+            if (curResponseTracker == npc.playerDialogue.Length - 1 &&
+        (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)))
+            {
+                EndDialogue(); // Close the conversation
+            }
         }
     }
 

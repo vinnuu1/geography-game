@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jeff
   dialogue:
-  - 'Hello '
-  - nice I am human
-  - Jeff
+  - Hello what are you?
+  - Wow no way!!!
   - Everyone has their own story, bushfires impacted the community as a whole, but
     I do suggest going in the libary, its just down the road from here.
   playerDialogue:
-  - Greetings I am alien
-  - whats your name
+  - Greetings I am an alien
   - Who do I talk with to learn more about bushfires
+  - Bye
