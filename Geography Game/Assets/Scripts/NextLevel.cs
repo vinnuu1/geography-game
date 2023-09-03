@@ -31,7 +31,7 @@ public class NextLevel : MonoBehaviour
             {
                 StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
                 StateNameController.lastLocation = "Outskirts";
-                StateNameController.finishedReading = false;
+                StateNameController.enableWaypoint = false;
             }
         }
         if(nextLevel == "Outskirts")

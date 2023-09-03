@@ -6,6 +6,6 @@ public class EnableWaypointOnDialogue : MonoBehaviour
 {
     public void enableWaypoint()
     {
-        StateNameController.finishedReading = true;
+        StateNameController.enableWaypoint = true;
     }
 }

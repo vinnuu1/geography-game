@@ -27,6 +27,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
 
         if (lastLocation == "RangerHouse")
         {
+            Debug.Log("works2");
             // If Town has been visited change to ranger dialogue 3
             if(StateNameController.visitedTown == true)
             {
@@ -36,16 +37,17 @@ public class NPCInteractable : MonoBehaviour, IInteractable
             else
             {
                 // Check if quiz has already been done
-                if(StateNameController.finishedReading == true)
+                if(StateNameController.enableWaypoint == true)
                 {
+                    Debug.Log("works3");
                     GameObject rangerObject = GameObject.FindGameObjectWithTag("Ranger");
                     GameObject dialogueObject = GameObject.FindGameObjectWithTag("Dialogue");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
                 }
                 else
                 {
                     // Change Ranger dialogue to quiz
                     GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue2");
-
                     myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
                 }
             }
@@ -54,7 +56,6 @@ public class NPCInteractable : MonoBehaviour, IInteractable
         if (lastLocation == "Town")
         {
             RangerDialogueAfterTown();
-
             StateNameController.visitedTown = true;
         }
     }
