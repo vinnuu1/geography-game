@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d40ea6044ffc747ad23bb9a790b60a, type: 3}
   m_Name: Rohan
   m_EditorClassIdentifier: 
-  name: Rohan
+  name: Beck
   dialogue:
-  - Did you know that even the ocean has an effect on bushfires?
+  - Did you know that even the surrounding bodies of water  has an effect on bushfires?
   - 'Yes! Think about it, where we are there is low levels of humidty due to being
     away from oceans, lakes or rivers. When water evaporates the air moisture increases,
     which makes it harder for fires to start. '
