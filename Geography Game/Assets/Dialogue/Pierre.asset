@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d40ea6044ffc747ad23bb9a790b60a, type: 3}
   m_Name: Pierre
   m_EditorClassIdentifier: 
-  name: 
+  name: Pierre
   dialogue:
   - It's getting to hot out here! I miss the winter
   playerDialogue:
