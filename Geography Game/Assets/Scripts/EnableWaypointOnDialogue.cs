@@ -8,4 +8,8 @@ public class EnableWaypointOnDialogue : MonoBehaviour
     {
         StateNameController.enableWaypoint = true;
     }
+    public void disableWaypoint()
+    {
+        StateNameController.enableWaypoint = false;
+    }
 }

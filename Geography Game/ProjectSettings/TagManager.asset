@@ -13,6 +13,9 @@ TagManager:
   - Outskirts
   - Town
   - RangerDialogue3
+  - PoliceWoman
+  - PlayerDialogue1
+  - PoliceWomanDialogue1
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
 {
     [SerializeField] private string interactText;
     public string lastLocation;
+    public int townProgress;
 
     public DialogueEditor.NPCConversation myConversation;
     public void Interact()
@@ -49,6 +50,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
                     // Change Ranger dialogue to quiz
                     GameObject dialogueObject = GameObject.FindGameObjectWithTag("RangerDialogue2");
                     myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                    StateNameController.waypointManager = "Outskirts";
                 }
             }
         }
@@ -57,6 +59,14 @@ public class NPCInteractable : MonoBehaviour, IInteractable
         {
             RangerDialogueAfterTown();
             StateNameController.visitedTown = true;
+        }
+        if(StateNameController.waypointManager == "Town")
+        {
+            if(StateNameController.townProgress == 0)
+            {
+                GameObject dialogueObject = GameObject.FindGameObjectWithTag("PoliceWomanDialogue1");
+                myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+            }
         }
     }
     void Update()
