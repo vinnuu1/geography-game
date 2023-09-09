@@ -5,7 +5,7 @@ using TMPro;
 
 public class NPCdetect : MonoBehaviour
 {
-    public GameObject interactionContainer; // Drag the container GameObject here in the Inspector
+    public GameObject interactionContainer; 
 
     private void Start()
     {

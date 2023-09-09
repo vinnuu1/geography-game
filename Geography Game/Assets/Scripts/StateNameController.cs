@@ -6,6 +6,6 @@ public class StateNameController : MonoBehaviour
 {
     public static string lastLocation;
     public static bool bookIsOpen;
-    public static bool finishedReading;
+    public static bool enableWaypoint;
     public static bool visitedTown = false;
 }

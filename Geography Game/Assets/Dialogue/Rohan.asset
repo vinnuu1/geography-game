@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d40ea6044ffc747ad23bb9a790b60a, type: 3}
+  m_Name: Rohan
+  m_EditorClassIdentifier: 
+  name: Beck
+  dialogue:
+  - Did you know that even the surrounding bodies of water  has an effect on bushfires?
+  - 'Yes! Think about it, where we are there is low levels of humidty due to being
+    away from oceans, lakes or rivers. When water evaporates the air moisture increases,
+    which makes it harder for fires to start. '
+  playerDialogue:
+  - "How?\t"
+  - Thanks! Bye!

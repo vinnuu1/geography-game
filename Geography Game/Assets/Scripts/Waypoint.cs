@@ -20,7 +20,7 @@ public class Waypoint : MonoBehaviour
     }
     private void showWaypoint()
     {
-        if(StateNameController.finishedReading == true)
+        if(StateNameController.enableWaypoint == true)
         {
             img.enabled = true;
             meter.enabled = true;
