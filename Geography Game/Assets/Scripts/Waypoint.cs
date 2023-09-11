@@ -22,7 +22,7 @@ public class Waypoint : MonoBehaviour
     }
     private void showWaypoint()
     {
-        if(StateNameController.enableWaypoint == true)
+        if (StateNameController.enableWaypoint == true)
         {
             img.enabled = true;
             meter.enabled = true;
@@ -52,6 +52,11 @@ public class Waypoint : MonoBehaviour
             img.transform.position = pos;
             meter.text = ((int)Vector3.Distance(target.position, transform.position)).ToString() + "m";
         }
+        else
+        {
+            img.enabled = false;
+            meter.enabled = false;
+        }
     }
     private void determineWaypoint()
     {
@@ -61,10 +66,62 @@ public class Waypoint : MonoBehaviour
             target = outskirtstotown.transform;
         }
 
+        // Police Woman waypoint
         if (StateNameController.townProgress == 0 && StateNameController.waypointManager == "Town")
         {
             GameObject policewoman = GameObject.FindGameObjectWithTag("PoliceWoman");
             target = policewoman.transform;
+        }
+
+        // Bookshop waypoint
+        if (StateNameController.townProgress == 20 && StateNameController.waypointManager == "Town")
+        {
+            GameObject bookshop = GameObject.FindGameObjectWithTag("BookShop");
+            target = bookshop.transform;
+        }
+
+        // Bookshop keeper waypoint
+        if (StateNameController.townProgress == 20 && StateNameController.waypointManager == "Bookshop")
+        {
+            GameObject keeper = GameObject.FindGameObjectWithTag("Keeper");
+            target = keeper.transform;
+        }
+        // Bookshop CUSTOMER1 waypoint
+        if (StateNameController.townProgress == 25 && StateNameController.waypointManager == "Bookshop")
+        {
+            GameObject customer = GameObject.FindGameObjectWithTag("FemaleCustomer");
+            target = customer.transform;
+        }
+        // Bookshop CUSTOMER2 waypoint
+        if (StateNameController.townProgress == 30 && StateNameController.waypointManager == "Bookshop")
+        {
+            GameObject customer = GameObject.FindGameObjectWithTag("MaleCustomer");
+            target = customer.transform;
+        }
+        // Bookshop keeper2 waypoint
+        if (StateNameController.townProgress == 35 && StateNameController.waypointManager == "Bookshop")
+        {
+            GameObject keeper = GameObject.FindGameObjectWithTag("Keeper");
+            target = keeper.transform;
+        }
+        // Leave Bookshop waypoint
+        if (StateNameController.townProgress == 40 && StateNameController.waypointManager == "Bookshop")
+        {
+            GameObject finish = GameObject.FindGameObjectWithTag("Finish");
+            target = finish.transform;
+        }
+
+        // Town - Talk to teacher waypoint
+        if (StateNameController.townProgress == 40 && StateNameController.waypointManager == "Town")
+        {
+            GameObject maleteacher = GameObject.FindGameObjectWithTag("MaleTeacher");
+            target = maleteacher.transform;
+        }
+        // Town - Talk to kid1 waypoint
+        if (StateNameController.townProgress == 45 && StateNameController.waypointManager == "Town")
+        {
+            GameObject kid = GameObject.FindGameObjectWithTag("kid1");
+            target = kid.transform;
         }
     }
 }

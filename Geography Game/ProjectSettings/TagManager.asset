@@ -16,6 +16,17 @@ TagManager:
   - PoliceWoman
   - PlayerDialogue1
   - PoliceWomanDialogue1
+  - BookShop
+  - Keeper
+  - KeeperDialogue1
+  - FemaleCustomerDialogue
+  - FemaleCustomer
+  - KeeperDialogue2
+  - MaleCustomer
+  - KeeperDialogue1.5
+  - MaleTeacher
+  - MTeacher1
+  - kid1
   layers:
   - Default
   - TransparentFX

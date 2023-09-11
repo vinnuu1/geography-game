@@ -9,5 +9,5 @@ public class StateNameController : MonoBehaviour
     public static bool enableWaypoint;
     public static bool visitedTown = false;
     public static int townProgress = 0;
-    public static string waypointManager = "Town"; // TESTING
+    public static string waypointManager; // TESTING
 }

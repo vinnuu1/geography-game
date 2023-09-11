@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RangersHouse.unity
     guid: a4c311d61aa528b4db764687ede70651
-  - enabled: 0
-    path: Assets/Scenes/Town.unity
-    guid: ef5c0464b85f1e44cb34c2dbf1742f39
   - enabled: 1
     path: Assets/Scenes/TownVinny.unity
     guid: e9017d5f96b9f09489b4b37e1d6eb914
   - enabled: 1
+    path: Assets/Scenes/BookShop.unity
+    guid: edb6bc502a7a495469c8bda0435e3b47
+  - enabled: 0
     path: Assets/Scenes/Farms.unity
     guid: 6e5a98cc8d177bf46b51d2bfab67f9f6
   m_configObjects:

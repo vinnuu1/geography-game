@@ -7,6 +7,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable
 {
     public Animator transition;
     public float transitionTime = 1f;
+    public double levelNumber;
 
     public void ToggleDoor()
     {
@@ -29,14 +30,28 @@ public class DoorInteractable : MonoBehaviour, IInteractable
 
     public void LoadNextLevel()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 3)
-        {
-            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
-        }
-        else
+        if(levelNumber == 2) { }
         {
             StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         }
+        //
+        if (levelNumber == 3)
+        {
+            Debug.Log("help");
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+        }
+        //Bookshop
+        if(levelNumber == 5)
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        }
+        //Bookshop to Town
+        if(levelNumber == 4.1)
+        {
+            StateNameController.lastLocation = "Bookshop";
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+        }
+        
         
     }
 
