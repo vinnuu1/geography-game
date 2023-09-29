@@ -27,6 +27,7 @@ TagManager:
   - MaleTeacher
   - MTeacher1
   - kid1
+  - Cabbage
   layers:
   - Default
   - TransparentFX

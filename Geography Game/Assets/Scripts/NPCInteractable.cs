@@ -8,6 +8,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
     [SerializeField] private string interactText;
     public string lastLocation;
     public int townProgress;
+    public int farmProgress;
 
     public DialogueEditor.NPCConversation myConversation;
     public void Interact()
@@ -25,6 +26,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
     }
     void Start()
     {
+        
         lastLocation = StateNameController.lastLocation;
 
         if (lastLocation == "RangerHouse")
@@ -74,6 +76,10 @@ public class NPCInteractable : MonoBehaviour, IInteractable
     }
     void Update()
     {
+        if (GameManager.cabbageCount == 3)
+        {
+            farmProgress = 1;
+        }
         // Ranger Dialogue Update
         GameObject rangerObject = GameObject.FindGameObjectWithTag("Ranger");
         GameObject dialogueObject = GameObject.FindGameObjectWithTag("Dialogue");
