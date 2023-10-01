@@ -8,7 +8,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
     [SerializeField] private string interactText;
     public string lastLocation;
     public int townProgress;
-    public int farmProgress;
+    
 
     public DialogueEditor.NPCConversation myConversation;
     public void Interact()
@@ -76,10 +76,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
     }
     void Update()
     {
-        if (GameManager.cabbageCount == 3)
-        {
-            farmProgress = 1;
-        }
+        
         // Ranger Dialogue Update
         GameObject rangerObject = GameObject.FindGameObjectWithTag("Ranger");
         GameObject dialogueObject = GameObject.FindGameObjectWithTag("Dialogue");
@@ -136,5 +133,27 @@ public class NPCInteractable : MonoBehaviour, IInteractable
                 }
             }
         }
+
+
+        if (StateNameController.waypointManager == "Farm")
+        {
+            // School Storyline Start
+            if (gameObject.tag == "FarmerWomen")
+            {
+                if (StateNameController.farmProgress == 100)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("FarmerTalk2");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+
+                if (StateNameController.farmProgress == 20)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("FarmerTalk3");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+            }
+        }
+
+
     }
 }

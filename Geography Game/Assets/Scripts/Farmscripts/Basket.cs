@@ -2,25 +2,38 @@ using UnityEngine;
 
 public class Basket : MonoBehaviour
 {
-    // References to the invisible cabbages inside the basket.
-    public GameObject[] cabbagesInBasket;
-
     private bool isPlayerNear = false;
-
+    public GameObject crop1;
+    public GameObject crop2;
+    public GameObject crop3;
+    public GameObject crop4;
+    public GameObject crop5;
+    public GameObject crop6;
+    public GameObject crop7;
     void Update()
     {
-        // Check if the player is near the basket and can open it.
-        if (isPlayerNear && GameManager.canOpenBasket && Input.GetKeyDown(KeyCode.E))
+        
+        if (isPlayerNear && Input.GetKeyDown(KeyCode.E) && GameManager.cabbageCount >= 9)
         {
-            // Activate the invisible cabbages to make them appear.
-            foreach (GameObject cabbage in cabbagesInBasket)
-            {
-                cabbage.SetActive(true);
-            }
+            Debug.Log("OpenBasket");
+            OpenBasket();
         }
     }
 
-    // Detect when the player enters the trigger zone.
+    
+    void OpenBasket()
+    {
+        Debug.Log("Cropactive");
+        crop1.SetActive(true);
+        crop2.SetActive(true);
+        crop3.SetActive(true);
+        crop4.SetActive(true);
+        crop5.SetActive(true);
+        crop6.SetActive(true);
+        crop7.SetActive(true);
+    }
+
+    
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -29,7 +42,7 @@ public class Basket : MonoBehaviour
         }
     }
 
-    // Detect when the player exits the trigger zone.
+    
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))

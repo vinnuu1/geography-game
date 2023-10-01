@@ -28,6 +28,10 @@ TagManager:
   - MTeacher1
   - kid1
   - Cabbage
+  - InvisibleCabbage
+  - FarmerTalk2
+  - FarmerWomen
+  - FarmerTalk3
   layers:
   - Default
   - TransparentFX

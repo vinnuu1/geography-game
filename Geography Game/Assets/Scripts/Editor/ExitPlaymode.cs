@@ -22,6 +22,7 @@ public class DetectPlayModeChanges
                 StateNameController.enableWaypoint = false;
                 StateNameController.visitedTown = false;
                 StateNameController.townProgress = 0;
+                StateNameController.farmProgress = 0;
                 StateNameController.waypointManager = "";
                 // Do whatever before entering play mode
                 break;

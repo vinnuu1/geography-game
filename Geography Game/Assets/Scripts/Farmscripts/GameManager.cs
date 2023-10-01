@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
     public static int cabbageCount = 0;
     public static bool canOpenBasket = false;
-    void start()
+    void Start()
     {
         cabbageCount = 0;
     }
@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     {
         // This will log the initial cabbage count when the game starts.
         Debug.Log(" Cabbage Count: " + cabbageCount);
-        if (cabbageCount >= 3)
+        if (cabbageCount >= 9)
         {
             canOpenBasket = true;
         }
