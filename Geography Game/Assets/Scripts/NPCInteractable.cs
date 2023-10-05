@@ -126,9 +126,17 @@ public class NPCInteractable : MonoBehaviour, IInteractable
             // School Storyline Start
             if (gameObject.tag == "MaleTeacher")
             {
+                Debug.Log("checkech");
+                Debug.Log(StateNameController.townProgress);
                 if (StateNameController.townProgress == 40)
                 {
                     GameObject dialogueObject = GameObject.FindGameObjectWithTag("MTeacher1");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+                if (StateNameController.townProgress == 90)
+                {
+                    Debug.Log("checkech2");
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("MTeacher2");
                     myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
                 }
             }

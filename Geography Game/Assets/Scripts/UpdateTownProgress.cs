@@ -13,7 +13,10 @@ public class UpdateTownProgress : MonoBehaviour
     {
         StateNameController.townProgress += 5;
     }
-
+    public void updateProgress10()
+    {
+        StateNameController.townProgress += 10;
+    }
 
     public void updateFarmProgress()
     {

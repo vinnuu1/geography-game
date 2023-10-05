@@ -7,10 +7,13 @@ public class DetermineLighting : MonoBehaviour
     public GameObject lighting;
     void Start()
     {
-        lighting.SetActive(false);
         if (StateNameController.townProgress == 40)
         {
             lighting.SetActive(true); 
+        }
+        if (StateNameController.townProgress == 100)
+        {
+            lighting.SetActive(true);
         }
     }
 }

@@ -21,6 +21,10 @@ public class NextLevel : MonoBehaviour
         {
             LoadNextLevel("Outskirts");
         }
+        if (targetObject.CompareTag("Farm"))
+        {
+            LoadNextLevel("Farm");
+        }
     }
     public void LoadNextLevel(string nextLevel)
     {
@@ -41,6 +45,15 @@ public class NextLevel : MonoBehaviour
             if (SceneManager.GetActiveScene().buildIndex == 4)
             {
                 StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 2));
+                StateNameController.lastLocation = "Town";
+            }
+        }
+        if (nextLevel == "Farm")
+        {
+            // Town to Farm
+            if (SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
                 StateNameController.lastLocation = "Town";
             }
         }

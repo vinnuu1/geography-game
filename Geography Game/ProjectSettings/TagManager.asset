@@ -32,6 +32,11 @@ TagManager:
   - FarmerTalk2
   - FarmerWomen
   - FarmerTalk3
+  - kid2
+  - kid3
+  - PlayerDialogue2
+  - Farm
+  - MTeacher2
   layers:
   - Default
   - TransparentFX

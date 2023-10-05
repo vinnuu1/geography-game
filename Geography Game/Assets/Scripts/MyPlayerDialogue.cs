@@ -14,5 +14,13 @@ public class MyPlayerDialogue : MonoBehaviour
             myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
             ConversationManager.Instance.StartConversation(myConversation);
         }
+        // Farm initial dialogue
+        Debug.Log(StateNameController.townProgress);
+        if (StateNameController.townProgress == 100)
+        {
+            GameObject dialogueObject = GameObject.FindGameObjectWithTag("PlayerDialogue2");
+            myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+            ConversationManager.Instance.StartConversation(myConversation);
+        }
     }
 }

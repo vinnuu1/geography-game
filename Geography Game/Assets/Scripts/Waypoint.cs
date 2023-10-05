@@ -123,5 +123,28 @@ public class Waypoint : MonoBehaviour
             GameObject kid = GameObject.FindGameObjectWithTag("kid1");
             target = kid.transform;
         }
+        // Town - Talk to kid2 waypoint
+        if (StateNameController.townProgress == 50 && StateNameController.waypointManager == "Town")
+        {
+            GameObject kid = GameObject.FindGameObjectWithTag("kid2");
+            target = kid.transform;
+        }
+        // Town - Talk to kid2 waypoint
+        if (StateNameController.townProgress == 55 && StateNameController.waypointManager == "Town")
+        {
+            GameObject kid = GameObject.FindGameObjectWithTag("kid3");
+            target = kid.transform;
+        }
+        // Town - Final conversation with teacher
+        if (StateNameController.townProgress == 80 && StateNameController.waypointManager == "Town")
+        {
+            GameObject maleteacher = GameObject.FindGameObjectWithTag("MaleTeacher");
+            target = maleteacher.transform;
+        }
+        if (StateNameController.townProgress == 100 && StateNameController.waypointManager == "Town")
+        {
+            GameObject farmLevel = GameObject.FindGameObjectWithTag("Farm");
+            target = farmLevel.transform;
+        }
     }
 }

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class TESTING : MonoBehaviour
 {
+    public int townProgress;
+    public string lastLocation;
+    public bool wayPoint;
     // Start is called before the first frame update
     void Start()
     {
-        //StateNameController.townProgress = 0;
-        //StateNameController.enableWaypoint = true;
-        //StateNameController.lastLocation = "";
+        StateNameController.townProgress = townProgress;
+        StateNameController.enableWaypoint = wayPoint;
+        StateNameController.lastLocation = lastLocation;
     }
 }
