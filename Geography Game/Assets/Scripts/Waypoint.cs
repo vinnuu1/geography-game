@@ -146,5 +146,90 @@ public class Waypoint : MonoBehaviour
             GameObject farmLevel = GameObject.FindGameObjectWithTag("Farm");
             target = farmLevel.transform;
         }
+        // Farm Waypoint Start
+        if (StateNameController.waypointManager == "Farm")
+        {
+            if (StateNameController.farmMainProgress == 0)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("FarmerMan");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 20)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("WateringCan");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 30)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingCrop1_1");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 40)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingCrop1_2");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 50)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingCrop1_3");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 60)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("FarmerMan");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 70)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("Aaron");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 75)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants1");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 80)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants2");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 85)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants3");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 90)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants4");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 95)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants5");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 100)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants6");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 105)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("TalkingPlants7");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 110)
+            {
+                GameObject FarmerMan = GameObject.FindGameObjectWithTag("Aaron");
+                target = FarmerMan.transform;
+            }
+            if (StateNameController.farmMainProgress == 115)
+            {
+                GameObject Ranger = GameObject.FindGameObjectWithTag("Mark");
+                target = Ranger.transform;
+            }
+        }
+
     }
 }

@@ -145,7 +145,6 @@ public class NPCInteractable : MonoBehaviour, IInteractable
 
         if (StateNameController.waypointManager == "Farm")
         {
-            // School Storyline Start
             if (gameObject.tag == "FarmerWomen")
             {
                 if (StateNameController.farmProgress == 100)
@@ -157,6 +156,42 @@ public class NPCInteractable : MonoBehaviour, IInteractable
                 if (StateNameController.farmProgress == 20)
                 {
                     GameObject dialogueObject = GameObject.FindGameObjectWithTag("FarmerTalk3");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+            }
+            if (gameObject.tag == "FarmerMan")
+            {
+                if (StateNameController.farmMainProgress == 0)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("FarmerManTalk1");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+                if (StateNameController.farmMainProgress == 20)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("FarmerManTalk2");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+                if (StateNameController.farmMainProgress == 60)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("FarmerManTalk3");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+            }
+            if (gameObject.tag == "Aaron")
+            {
+                if (StateNameController.farmMainProgress == 70)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("AaronTalk1");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+                if (StateNameController.farmMainProgress > 70 && StateNameController.farmMainProgress < 105)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("AaronTalk2");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+                if (StateNameController.farmMainProgress == 110)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("AaronTalk3");
                     myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
                 }
             }

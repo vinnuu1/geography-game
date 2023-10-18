@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 3c81a842bb42fc6498c754b6f74c3664
+  m_OcclusionCullingData: {fileID: 36300000, guid: 415cb03f9ace2a340a0e9a0e977f0aff,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -292,49 +293,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 60
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":791,"yPos":-1577},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes.
-    I learnt a lot about \"Bushfires\".","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":1138,"yPos":-1577},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"No!
-    ","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":792,"yPos":-1268},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Let''s
-    do it.","parentUIDs":[13,17],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":692,"yPos":-986},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"True","parentUIDs":[19],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":941,"yPos":-983},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"False","parentUIDs":[19],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":946,"yPos":-793},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"Restart
-    Quiz","parentUIDs":[22],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":1256,"yPos":-1059},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[24],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":513,"yPos":-682},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Clear
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":660.5,"yPos":-1753},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes.
+    I learnt a lot about \"Bushfires\".","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":1007.5,"yPos":-1753},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"No!
+    ","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":661.5,"yPos":-1444},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Let''s
+    do it.","parentUIDs":[13,17],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":561.5,"yPos":-1162},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"True","parentUIDs":[19],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":810.5,"yPos":-1159},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"False","parentUIDs":[19],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":815.5,"yPos":-969},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"Restart
+    Quiz","parentUIDs":[22],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":1125.5,"yPos":-1235},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[24],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":382.5,"yPos":-858},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Clear
     land for agricultural purposes and to protect properties from intense, uncontrolled
-    fires.","parentUIDs":[27],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":763,"yPos":-681},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Clear
-    land to help with animals ecosystem","parentUIDs":[27],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":1069,"yPos":-680},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[34],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":41}],"EditorInfo":{"isRoot":false,"xPos":346,"yPos":-350},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Summer","parentUIDs":[38],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":44}],"EditorInfo":{"isRoot":false,"xPos":658,"yPos":-350},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"Any
-    time of the year","parentUIDs":[38],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":51,"yPos":-284},"ID":43,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[42],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":50}],"EditorInfo":{"isRoot":false,"xPos":531,"yPos":102},"ID":48,"ParamActions":[],"TMPFontGUID":null,"Text":"Rural
-    Areas","parentUIDs":[47],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":55}],"EditorInfo":{"isRoot":false,"xPos":827,"yPos":101},"ID":49,"ParamActions":[],"TMPFontGUID":null,"Text":"Around
-    the fringies of cities","parentUIDs":[47],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":249,"yPos":98},"ID":53,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[52],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":59}],"EditorInfo":{"isRoot":false,"xPos":832,"yPos":512},"ID":58,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    appreciate your help","parentUIDs":[57],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":true,"xPos":969.5,"yPos":-1782},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"So
-    how was it? Did you find the information useful?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":787,"yPos":-1477},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Haha!
+    fires.","parentUIDs":[27],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":632.5,"yPos":-857},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Clear
+    land to help with animals ecosystem","parentUIDs":[27],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":938.5,"yPos":-856},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[34],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":41}],"EditorInfo":{"isRoot":false,"xPos":215.5,"yPos":-526},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Summer","parentUIDs":[38],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":44}],"EditorInfo":{"isRoot":false,"xPos":527.5,"yPos":-526},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"Any
+    time of the year","parentUIDs":[38],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":-79.5,"yPos":-460},"ID":43,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[42],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":50}],"EditorInfo":{"isRoot":false,"xPos":400.5,"yPos":-74},"ID":48,"ParamActions":[],"TMPFontGUID":null,"Text":"Rural
+    Areas","parentUIDs":[47],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":55}],"EditorInfo":{"isRoot":false,"xPos":696.5,"yPos":-75},"ID":49,"ParamActions":[],"TMPFontGUID":null,"Text":"Around
+    the fringies of cities","parentUIDs":[47],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":118.5,"yPos":-78},"ID":53,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes","parentUIDs":[52],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":59}],"EditorInfo":{"isRoot":false,"xPos":701.5,"yPos":336},"ID":58,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    appreciate your help","parentUIDs":[57],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":true,"xPos":839,"yPos":-1958},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"So
+    how was it? Did you find the information useful?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":656.5,"yPos":-1653},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Haha!
     Your response tells me that your planet must not have bushfires. It makes me
-    wonder what type of natural disasters happen on your planet...","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":790,"yPos":-1375},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
+    wonder what type of natural disasters happen on your planet...","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":659.5,"yPos":-1551},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
     I''ll hold onto my curiousity for now. Instead, how about I test you on what
-    you learnt! You up for the challenge?","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":793,"yPos":-1198},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
-    great to hear! Now let''s see if you are truly an alien...","parentUIDs":[14],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0.5,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":1138,"yPos":-1494},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Ouch!
+    you learnt! You up for the challenge?","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":662.5,"yPos":-1374},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
+    great to hear! Now let''s see if you are truly an alien...","parentUIDs":[14],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0.5,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":1007.5,"yPos":-1670},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Ouch!
     Well now that I think about it I guess there wasn''t a lot of information in
-    my house...","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":1140,"yPos":-1384},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
+    my house...","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":1009.5,"yPos":-1560},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
     since you think there wasn''t enough information, how about I test you on what
-    you learnt! You up for the challenge?","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":20},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":794,"yPos":-1110},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
-    1: Bushfires are generally slower moving, but have a higher heat output.","parentUIDs":[15,25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":944,"yPos":-895},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"Wrong!
-    Are you sure you took a look at the books inside? ","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":1254,"yPos":-984},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright,
-    I''ll give you another chance. Are you ready?","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":693,"yPos":-896},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Correct!
-    I was going easy on you with that one.","parentUIDs":[20],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":28},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":692,"yPos":-793},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
-    2: How do Indigenous Australians use bushfires as a land management tool?","parentUIDs":[26,35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":771,"yPos":-601},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Incorrect!
-    Come on now I thought you were Alien.","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":1070,"yPos":-608},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright,
-    I''ll give you another chance. Are you ready?","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":513,"yPos":-591},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Correct!
+    you learnt! You up for the challenge?","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":20},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":663.5,"yPos":-1286},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
+    1: Bushfires are generally slower moving, but have a higher heat output.","parentUIDs":[15,25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":813.5,"yPos":-1071},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"Wrong!
+    Are you sure you took a look at the books inside? ","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":1123.5,"yPos":-1160},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright,
+    I''ll give you another chance. Are you ready?","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":562.5,"yPos":-1072},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Correct!
+    I was going easy on you with that one.","parentUIDs":[20],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":28},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":561.5,"yPos":-969},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
+    2: How do Indigenous Australians use bushfires as a land management tool?","parentUIDs":[26,35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":640.5,"yPos":-777},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Incorrect!
+    Come on now I thought you were Alien.","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":939.5,"yPos":-784},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright,
+    I''ll give you another chance. Are you ready?","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":382.5,"yPos":-767},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Correct!
     Well would you look at that! Alright then, I''m not going easy with the next
-    one.","parentUIDs":[28],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":39},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":510,"yPos":-486},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
-    3: Some parts of Australia are prone to bushfires at what time of the year?","parentUIDs":[36,43],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":340,"yPos":-268},"ID":41,"ParamActions":[],"TMPFontGUID":null,"Text":"Wrong!
-    Ahaha I got you with that one!","parentUIDs":[39],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":43}],"EditorInfo":{"isRoot":false,"xPos":339,"yPos":-151},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright,
-    since you have been doing so well I will give you another chance. Are you ready?","parentUIDs":[41],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":45}],"EditorInfo":{"isRoot":false,"xPos":656,"yPos":-273},"ID":44,"ParamActions":[],"TMPFontGUID":null,"Text":"Woah
-    that is correct! You really are something else!","parentUIDs":[40],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":661,"yPos":-166},"ID":45,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright
-    looks like I can''t hold back on you with the final question!","parentUIDs":[44],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":48},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":49}],"EditorInfo":{"isRoot":false,"xPos":661,"yPos":-35},"ID":47,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
-    4: Most loss of life and economic damage occurs where?","parentUIDs":[45,53],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":52}],"EditorInfo":{"isRoot":false,"xPos":527,"yPos":205},"ID":50,"ParamActions":[],"TMPFontGUID":null,"Text":"Incorrect!
-    So close yet so far.","parentUIDs":[48],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":53}],"EditorInfo":{"isRoot":false,"xPos":243,"yPos":206},"ID":52,"ParamActions":[],"TMPFontGUID":null,"Text":"Since
-    you were doing so well, I''ll give you another chance at it. Are you ready?","parentUIDs":[50],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":828,"yPos":194},"ID":55,"ParamActions":[],"TMPFontGUID":null,"Text":".....","parentUIDs":[49],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":57}],"EditorInfo":{"isRoot":false,"xPos":829,"yPos":311},"ID":56,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    really are an Alien with that type of intelligence!","parentUIDs":[55],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":58}],"EditorInfo":{"isRoot":false,"xPos":830,"yPos":412},"ID":57,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
+    one.","parentUIDs":[28],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":39},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":379.5,"yPos":-662},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
+    3: Some parts of Australia are prone to bushfires at what time of the year?","parentUIDs":[36,43],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":209.5,"yPos":-444},"ID":41,"ParamActions":[],"TMPFontGUID":null,"Text":"Wrong!
+    Ahaha I got you with that one!","parentUIDs":[39],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":43}],"EditorInfo":{"isRoot":false,"xPos":208.5,"yPos":-327},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright,
+    since you have been doing so well I will give you another chance. Are you ready?","parentUIDs":[41],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":45}],"EditorInfo":{"isRoot":false,"xPos":525.5,"yPos":-449},"ID":44,"ParamActions":[],"TMPFontGUID":null,"Text":"Woah
+    that is correct! You really are something else!","parentUIDs":[40],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":530.5,"yPos":-342},"ID":45,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright
+    looks like I can''t hold back on you with the final question!","parentUIDs":[44],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":48},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":49}],"EditorInfo":{"isRoot":false,"xPos":530.5,"yPos":-211},"ID":47,"ParamActions":[],"TMPFontGUID":null,"Text":"Question
+    4: Most loss of life and economic damage occurs where?","parentUIDs":[45,53],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":52}],"EditorInfo":{"isRoot":false,"xPos":396.5,"yPos":29},"ID":50,"ParamActions":[],"TMPFontGUID":null,"Text":"Incorrect!
+    So close yet so far.","parentUIDs":[48],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":53}],"EditorInfo":{"isRoot":false,"xPos":112.5,"yPos":30},"ID":52,"ParamActions":[],"TMPFontGUID":null,"Text":"Since
+    you were doing so well, I''ll give you another chance at it. Are you ready?","parentUIDs":[50],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":697.5,"yPos":18},"ID":55,"ParamActions":[],"TMPFontGUID":null,"Text":".....","parentUIDs":[49],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.5,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":57}],"EditorInfo":{"isRoot":false,"xPos":698.5,"yPos":135},"ID":56,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    really are an Alien with that type of intelligence!","parentUIDs":[55],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":58}],"EditorInfo":{"isRoot":false,"xPos":699.5,"yPos":236},"ID":57,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
     congratulations on passing my test! Although I want to continue talking, I''m
     sure your looking for more information so I suggest you head to the town nearby.
-    Just follow the path to the left of my house and it will lead you there.","parentUIDs":[56],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":834,"yPos":589},"ID":59,"ParamActions":[],"TMPFontGUID":null,"Text":"No
+    Just follow the path to the left of my house and it will lead you there.","parentUIDs":[56],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":703.5,"yPos":413},"ID":59,"ParamActions":[],"TMPFontGUID":null,"Text":"No
     worries Mr. Alien!","parentUIDs":[58],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ranger","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -391,7 +392,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1108783864}
         m_TargetAssemblyTypeName: RangerEmotions, Assembly-CSharp
-        m_MethodName: Idea
+        m_MethodName: Talk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1602484373}
+        m_TargetAssemblyTypeName: EnableWaypointOnDialogue, Assembly-CSharp
+        m_MethodName: enableWaypoint
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -859,6 +872,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConversationManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755196472086, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca,
+        type: 3}
+      propertyPath: ScrollSpeed
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca,
         type: 3}
@@ -1371,7 +1389,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &522099447
 PrefabInstance:
@@ -1444,6 +1462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerArmature (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544,
+        type: 3}
+      propertyPath: SprintSpeed
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6982812146204527121, guid: 64dce48905ffd9b4293e595fa6941544,
         type: 3}
@@ -1713,7 +1736,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &674686371
 GameObject:
@@ -3124,7 +3147,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9462b990d918dc047871a7518e231c93,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.14
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9462b990d918dc047871a7518e231c93,
         type: 3}
@@ -3527,7 +3550,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108783854 stripped
 GameObject:
@@ -5671,7 +5694,7 @@ Transform:
   m_Children:
   - {fileID: 127867888}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1367844621
 MonoBehaviour:
@@ -6280,37 +6303,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1674344134
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1674344136}
-  m_Layer: 0
-  m_Name: ExitPlaymode
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1674344136
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674344134}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 461.0036, y: 8.043033, z: 389.21594}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756952852
 GameObject:
   m_ObjectHideFlags: 0
@@ -6455,7 +6447,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1929388705
 GameObject:
@@ -6615,8 +6607,8 @@ Terrain:
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 250
-  m_DetailObjectDensity: 1
+  m_DetailObjectDistance: 50.7
+  m_DetailObjectDensity: 0.335
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0

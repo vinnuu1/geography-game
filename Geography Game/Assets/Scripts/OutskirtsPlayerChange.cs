@@ -28,10 +28,4 @@ public class OutskirtsPlayerChange : MonoBehaviour
             transform.rotation = targetRotation;
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

@@ -37,6 +37,27 @@ TagManager:
   - PlayerDialogue2
   - Farm
   - MTeacher2
+  - FarmerManTalk1
+  - FarmerMan
+  - FarmerManTalk2
+  - WaterCrops1
+  - TalkingCrop1_1
+  - WateringCan
+  - TalkingCrop1_2
+  - TalkingCrop1_3
+  - FarmerManTalk3
+  - Aaron
+  - AaronTalk1
+  - AaronTalk2
+  - TalkingPlants1
+  - TalkingPlants2
+  - TalkingPlants3
+  - TalkingPlants4
+  - TalkingPlants5
+  - TalkingPlants6
+  - TalkingPlants7
+  - AaronTalk3
+  - Mark
   layers:
   - Default
   - TransparentFX

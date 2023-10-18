@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FarmV2.unity
     guid: dacef9941f9974f4f8a96b036d6cbc12
+  - enabled: 1
+    path: Assets/Scenes/Farm_Cutscene.unity
+    guid: ce7f288f85d8a944eae9f13a9d2db77d
+  - enabled: 1
+    path: Assets/Scenes/FarmV3.unity
+    guid: 3658334cbb424b64c85d00590bfa0d08
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}

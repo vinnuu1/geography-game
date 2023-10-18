@@ -22,5 +22,16 @@ public class UpdateTownProgress : MonoBehaviour
     {
         StateNameController.farmProgress = 20;
     }
-
+    public void updateMainFarmProgress()
+    {
+        StateNameController.farmMainProgress += 20;
+    }
+    public void updateMainFarmProgress10()
+    {
+        StateNameController.farmMainProgress += 10;
+    }
+    public void updateMainFarmProgress5()
+    {
+        StateNameController.farmMainProgress += 5;
+    }
 }

@@ -26,9 +26,24 @@ public class NextLevel : MonoBehaviour
             LoadNextLevel("Farm");
         }
     }
+    public void FarmCutscene()
+    {
+        LoadNextLevel("FarmCutscene");
+    }
+    public void IntroScene()
+    {
+        LoadNextLevel("Intro");
+    }
     public void LoadNextLevel(string nextLevel)
     {
-        if(nextLevel == "Town")
+        if (nextLevel == "Intro")
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+            }
+        }
+        if (nextLevel == "Town")
         {
             // Outskirts to Town
             if (SceneManager.GetActiveScene().buildIndex == 2)
@@ -55,6 +70,13 @@ public class NextLevel : MonoBehaviour
             {
                 StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
                 StateNameController.lastLocation = "Town";
+            }
+        }
+        if (nextLevel == "FarmCutscene")
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 6 || SceneManager.GetActiveScene().buildIndex == 7)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
             }
         }
 
