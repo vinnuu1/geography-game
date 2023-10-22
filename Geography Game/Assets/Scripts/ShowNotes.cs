@@ -15,14 +15,11 @@ public class ShowNotes : MonoBehaviour
     }
     public void closeNotes()
     {
-        if (StateNameController.bookIsOpen == true)
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                customImage.enabled = false;
-                customCanvas.enabled = false;
-                StateNameController.bookIsOpen = false;
-            }
+            customImage.enabled = false;
+            customCanvas.enabled = false;
+            StateNameController.bookIsOpen = false;
         }
     }
     public void Start()

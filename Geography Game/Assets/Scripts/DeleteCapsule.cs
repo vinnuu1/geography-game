@@ -20,4 +20,9 @@ public class DeleteCapsule : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+    public void destoryMusic()
+    {
+        GameObject[] musicObj = GameObject.FindGameObjectsWithTag("GameMusic");
+        Destroy(this.gameObject);
+    }
 }

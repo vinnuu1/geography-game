@@ -230,6 +230,26 @@ public class Waypoint : MonoBehaviour
                 target = Ranger.transform;
             }
         }
-
+        if(StateNameController.waypointManager == "TownFire")
+        {
+            if (StateNameController.forestProgress == 0)
+            {
+                GameObject firefighter = GameObject.FindGameObjectWithTag("Firefighter");
+                target = firefighter.transform;
+            }
+        }
+        if (StateNameController.waypointManager == "Forest")
+        {
+            if (StateNameController.forestProgress == 0)
+            {
+                GameObject Forest = GameObject.FindGameObjectWithTag("Forest");
+                target = Forest.transform;
+            }
+            if (StateNameController.forestProgress == 100)
+            {
+                GameObject Mark = GameObject.FindGameObjectWithTag("Mark");
+                target = Mark.transform;
+            }
+        }
     }
 }

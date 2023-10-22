@@ -6,6 +6,7 @@ public class TESTING : MonoBehaviour
 {
     public int townProgress;
     public int farmProgress;
+    public int forestProgress;
     public string lastLocation;
     public bool wayPoint;
     // Start is called before the first frame update
@@ -13,6 +14,7 @@ public class TESTING : MonoBehaviour
     {
         StateNameController.townProgress = townProgress;
         StateNameController.farmMainProgress = farmProgress;
+        StateNameController.forestProgress = forestProgress;
         StateNameController.enableWaypoint = wayPoint;
         StateNameController.lastLocation = lastLocation;
     }

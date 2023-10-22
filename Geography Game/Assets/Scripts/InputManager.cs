@@ -10,10 +10,10 @@ public class InputManager : MonoBehaviour
      if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
             if (Input.GetKeyDown(KeyCode.UpArrow))
-                ConversationManager.Instance.SelectNextOption();
+                ConversationManager.Instance.SelectPreviousOption();
 
             if (Input.GetKeyDown(KeyCode.DownArrow))
-                ConversationManager.Instance.SelectPreviousOption();
+                ConversationManager.Instance.SelectNextOption();
 
             if (Input.GetKeyDown(KeyCode.Return))
                 ConversationManager.Instance.PressSelectedOption();

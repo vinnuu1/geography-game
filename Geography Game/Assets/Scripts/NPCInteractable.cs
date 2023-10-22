@@ -64,15 +64,6 @@ public class NPCInteractable : MonoBehaviour, IInteractable
             StateNameController.visitedTown = true;
         }
 
-
-        if(StateNameController.waypointManager == "Town")
-        {
-            if(StateNameController.townProgress == 0)
-            {
-                GameObject dialogueObject = GameObject.FindGameObjectWithTag("PoliceWomanDialogue1");
-                myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
-            }
-        }
     }
     void Update()
     {
@@ -100,6 +91,17 @@ public class NPCInteractable : MonoBehaviour, IInteractable
     }
     void checkDialogue()
     {
+        if (StateNameController.waypointManager == "Town")
+        {
+            if(gameObject.tag == "PoliceWoman")
+            {
+                if (StateNameController.townProgress == 0)
+                {
+                    GameObject dialogueObject = GameObject.FindGameObjectWithTag("PoliceWomanDialogue1");
+                    myConversation = dialogueObject.GetComponent<DialogueEditor.NPCConversation>();
+                }
+            }
+        }
         if (StateNameController.waypointManager == "Bookshop")
         {
             if(gameObject.tag == "Keeper")

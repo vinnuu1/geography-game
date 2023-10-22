@@ -25,6 +25,10 @@ public class NextLevel : MonoBehaviour
         {
             LoadNextLevel("Farm");
         }
+        if (targetObject.CompareTag("Forest"))
+        {
+            LoadNextLevel("Forest");
+        }
     }
     public void FarmCutscene()
     {
@@ -34,11 +38,31 @@ public class NextLevel : MonoBehaviour
     {
         LoadNextLevel("Intro");
     }
+    public void failedLevel()
+    {
+        LoadNextLevel("Failed");
+    }
+    public void Menu()
+    {
+        LoadNextLevel("Menu");
+    }
     public void LoadNextLevel(string nextLevel)
     {
         if (nextLevel == "Intro")
         {
             if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+            }
+            if (SceneManager.GetActiveScene().buildIndex == 8)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+            }
+            if (SceneManager.GetActiveScene().buildIndex == 9)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+            }
+            if (SceneManager.GetActiveScene().buildIndex == 11)
             {
                 StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
             }
@@ -79,7 +103,27 @@ public class NextLevel : MonoBehaviour
                 StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
             }
         }
-
+        if (nextLevel == "Forest")
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 10)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+            }
+        }
+        if (nextLevel == "Failed")
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 11)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+            }
+        }
+        if (nextLevel == "Menu")
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 12)
+            {
+                StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 12));
+            }
+        }
     }
     IEnumerator LoadLevel(int levelIndex)
     {

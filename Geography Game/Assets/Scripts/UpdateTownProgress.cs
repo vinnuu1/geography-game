@@ -34,4 +34,8 @@ public class UpdateTownProgress : MonoBehaviour
     {
         StateNameController.farmMainProgress += 5;
     }
+    public void finishForest()
+    {
+        StateNameController.forestProgress = 100;
+    }
 }
